@@ -1,0 +1,158 @@
+.first {
+    border-bottom: 1px solid var(--linha);
+}
+
+.logo:hover,
+h1:hover, 
+img:hover,
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+} 
+
+
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    margin-block: .5rem;
+    margin-left: .5rem;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second h1 {
+    font-size: 3.5rem;
+    margin: 4rem;
+}
+
+.second p {
+    font-size: 1.1rem;
+    color: var(--text-in);
+    text-align: center;
+}
+
+.second p span {
+    font-weight: 600;
+}
+
+.second img {
+    width: 25rem;
+    margin-block: 2rem;
+}
+
+.vermelho {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.branco {
+    color: #fff;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.history h1 {
+    margin: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.history img {
+    margin-block: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.cultura {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cultura h1 {
+    margin: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cultura img {
+    width: 20rem;
+    height: 15rem;
+    margin-block: 2rem;
+}
+
+.info h1{
+    font-size: 2.5rem;
+    margin: 2rem;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img {
+    width: 22rem;
+    height: 20rem;
+    margin-block: 2rem;
+}
+
+.politica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.politica img {
+    margin-block: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.pontos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pontos h1 {
+    font-size: 2.12rem;
+    margin: 2rem;
+}
+
+.pontos p {
+    margin: 1rem;
+    color: var(--text-in);
+}
+
+.pontos p span {
+    font-weight: 600;
+}
+
+.pontos img {
+    margin-block: 1rem;
+    width: 21rem;
+    height: 15rem;
+}
