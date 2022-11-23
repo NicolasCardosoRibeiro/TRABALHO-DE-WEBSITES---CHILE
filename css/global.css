@@ -8,10 +8,12 @@
 }
 
 p {
-    color: #fff;
-    font-size: 1.1rem;
-    word-spacing: 1px;
-    text-align: center;
+    color: var(--text);
+    font-size: 0.9rem;
+    word-spacing: 0.0625rem;
+    text-align: justify ;
+    margin-inline: 1rem;
+
 }
 
 button {
@@ -27,12 +29,13 @@ h1 {
 }
 
 body {
-    background: var(--bg);
+    background: var(--bg) ;
+    
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text);
 }
 
 header section {
@@ -50,9 +53,7 @@ li {
     text-transform: uppercase;
     font-size: .5rem;
     margin: .6rem;
-    color: #fff;
     text-align: center;
+    color: var(--text);
 }
-
-
 
